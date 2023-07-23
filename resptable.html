@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+    <style>
+#resp-table {
+width: 100%;
+display: table;
+}
+#resp-table-caption{
+display: table-caption;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+}
+#resp-table-header{
+display: table-header-group;
+background-color: gray;
+font-weight: bold;
+font-size: 25px;
+}
+.table-header-cell{
+display: table-cell;
+padding: 10px;
+text-align: justify;
+border-bottom: 1px solid black;
+}
+#resp-table-body{
+display: table-row-group;
+}
+.resp-table-row{
+display: table-row;
+}
+.table-body-cell{
+display: table-cell;
+}
+#resp-table-footer {
+display: table-footer-group;
+background-color: gray;
+font-weight: bold;
+font-size: 25px;
+color: rgba(255, 255, 255, 0.45);
+}
+.table-footer-cell{
+display: table-cell;
+padding: 10px;
+text-align: justify;
+border-bottom: 1px solid black;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+
+  </head>
+  <body>
+    
+<div id=“resp-table”>
+
+<div id=“resp-table-header”>
+  <div class=“table-header-cell”>
+  Header 1
+  </div>
+  <div class=“table-header-cell”>
+  Header 2
+  </div>
+</div>
+
+<div id=“resp-table-body”>
+
+<div class=“resp-table-row”>
+  <div class=“table-body-cell”>
+  Cell 1–1
+  </div>
+  <div class=“table-body-cell”>
+  Cell 1–2
+  </div>
+</div>
+
+<div class=“resp-table-row”>
+  <div class=“table-body-cell”>
+  Cell 2–1
+  </div>
+  <div class=“table-body-cell”>
+  Cell 2–2
+  </div>
+</div>
+
+<div id=“resp-table-footer”>
+  <div class=“table-footer-cell”>
+  Footer 1
+  </div>
+  <div class=“table-footer-cell”>
+  Footer 2
+  </div>
+</div>
+
+</div>
+<div id=“resp-table-caption”>
+Responsive Table without Table tag, from wisdmlabs.com/blog/responsive-tables-using-css-div-tag/
+</div>
+
+<h1>A Fancy Table</h1>
+
+<table id="customers">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Königlich Essen</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>Simon Crowther</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Paris spécialités</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+</table>
+
+
+  </body>
+</html>
